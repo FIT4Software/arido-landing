@@ -43,7 +43,7 @@ document.addEventListener("DOMContentLoaded", function (event) {
 
   pannellum.viewer("panorama", {
     type: "equirectangular",
-    panorama: "assets/image/pan1.jpg",
+    panorama: "assets/image/pan1-opt.jpg",
     autoLoad: true,
     autoRotate: -3,
     compass: false,
