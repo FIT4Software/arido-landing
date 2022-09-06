@@ -47,6 +47,7 @@ document.addEventListener("DOMContentLoaded", function (event) {
     autoLoad: true,
     autoRotate: -3,
     compass: false,
-    hfov: 150,
+    hfov: 200,
+    showControls: false,
   });
 });
