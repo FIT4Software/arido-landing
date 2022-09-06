@@ -90,6 +90,7 @@ section p {
 
 .logo {
   height: 50px;
+  transition: all 0.5s ease-out;
 }
 
 .menu {
@@ -117,6 +118,7 @@ section p {
   top: 0;
   transition: all 0.5s ease-out;
 }
+
 .sticky-bg {
   background: rgb(255, 255, 255);
   background: -moz-linear-gradient(
@@ -217,6 +219,7 @@ section p {
 .stepper-card:nth-child(even) {
   align-self: flex-end;
 }
+
 .card-collection {
   display: flex;
   flex-direction: row;
@@ -238,6 +241,7 @@ section p {
   justify-content: center;
   align-items: center;
 }
+
 .card-image {
   height: 100px;
 }
@@ -451,7 +455,7 @@ section p {
 }
 
 /* Medium devices (tablets, 768px and up) */
-@media (max-width: 768px) {
+@media (max-width: 767px) {
   .header {
     margin: 0;
     padding: 0;
@@ -580,7 +584,7 @@ section p {
 }
 
 /* Large devices (desktops, 992px and up) */
-@media (min-width: 769px) and (max-width: 992px) {
+@media (min-width: 768px) and (max-width: 992px) {
   .header {
     margin: 0;
     padding: 0;
@@ -589,7 +593,7 @@ section p {
     height: calc(100vh - 70px);
   }
   .header .container {
-    padding: 15px;
+    padding: 20px;
   }
   .sticky-bg img {
     height: 40px;
@@ -612,7 +616,7 @@ section p {
     display: none;
   }
   .menu-item {
-    padding: 5px;
+    padding: 10px;
     background-color: var(--secondary);
     font-size: 1.6rem;
   }
@@ -633,7 +637,7 @@ section p {
     right: 10px;
   }
   .logo {
-    height: 40px;
+    height: 50px;
   }
   .container {
     width: 100%;
@@ -642,10 +646,10 @@ section p {
     font-size: 1.8rem;
     text-align: right;
     padding: 10px 10px;
-    margin-bottom: 10px;
+    margin-bottom: 20px;
   }
   .hero-title {
-    font-size: 2.5rem;
+    font-size: 3rem;
     text-align: right;
     padding: 10px 10px;
   }
@@ -685,6 +689,7 @@ section p {
   }
   .card {
     padding: 0;
+    flex-direction: row-reverse;
   }
   .footer .container {
     padding: 20px;
@@ -692,6 +697,7 @@ section p {
   }
   .footer .container div p {
     line-height: 1;
+    font-size: 1.2rem;
   }
   .address {
     display: flex;
@@ -706,7 +712,7 @@ section p {
     padding: 0;
   }
   .social-list a li {
-    font-size: 1.4rem;
+    font-size: 1.2rem;
   }
   .map {
     height: 400px;
@@ -727,10 +733,10 @@ section p {
     height: calc(100vh - 100px);
   }
   .hero-bg {
-    background-position: center 48%;
+    background-position: center 53%;
   }
   .stepper-card img {
-    width: 40%;
+    width: 35%;
     margin: auto;
     padding: 20px;
   }
@@ -739,5 +745,11 @@ section p {
   }
   .social-list {
     margin-top: 94px;
+  }
+  .footer .container div p {
+    font-size: 1rem;
+  }
+  .social-list a li {
+    font-size: 1rem;
   }
 }
