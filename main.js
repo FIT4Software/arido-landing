@@ -41,11 +41,12 @@ document.addEventListener("DOMContentLoaded", function (event) {
 
   document.addEventListener("click", handleClickOutsideMenu, false);
 
-  // videojs("panorama", {
-  //   plugins: {
-  //     pannellum: {
-  //       showControls: false,
-  //     },
-  //   },
-  // });
+  pannellum.viewer("panorama", {
+    type: "equirectangular",
+    panorama: "assets/image/pan1.jpg",
+    autoLoad: true,
+    autoRotate: -3,
+    compass: false,
+    hfov: 150,
+  });
 });
