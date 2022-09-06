@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="210mm" height="297mm" viewBox="0 0 210 297">
+  <defs>
+    <path id="a" stroke-dasharray=".52916667,.52916667" stroke-width=".26" d="M69.55 21.83a82.34 82.34 0 0 1 12.88 50.55c-1.06 14.06-5.8 27.75-13.14 39.79-8.35 13.72-19.99 25.37-27.1 39.77-6.64 13.42-9.02 28.63-8.93 43.6a143.3 143.3 0 0 0 36.29 93.9"/>
+  </defs>
+  <g fill="none" stroke="#ccc">
+    <ellipse cx="-23.43" cy="67.95" stroke-dasharray="1.5875,.26458333" stroke-width=".26" opacity=".65" rx="52.92" ry="52.16"/>
+    <path stroke-dasharray=".26458332,.79374995000000004" stroke-width=".26" d="M219.23 21.08c-1.36 11.5-15.96 55.84-22.2 64.86-26.18 27.24-39.8 18.27-57.14 55.62-2.5 10.2-3.53 28.93 3.16 37.83 5.46 8.4 11.58 16.52 20.13 22.01 6.52 5.06 14.56 7.04 22.17 9.67 8.7 3.76 17.75 7.32 25.39 13 3.04 2.92 5.62 6.4 9.24 8.67" opacity=".73"/>
+    <use xlink:href="#a" stroke-dasharray=".52916667,.52916667" stroke-width=".26" transform="matrix(1.0003 0 0 .85879 -34.04 5.35)"/>
+    <use xlink:href="#a" stroke-dasharray=".52916667,.52916667" stroke-width=".26" transform="matrix(.9978 0 0 -.93257 148.54 402.1)"/>
+    <ellipse cx="242.66" cy="57.36" stroke-dasharray="1.58750002,.26458333" stroke-width=".26" opacity=".39" rx="52.92" ry="52.16"/>
+    <ellipse cx="82.78" cy="258.78" stroke-dasharray="1.16899274,.19483212" stroke-width=".19" opacity=".39" rx="38.97" ry="38.41"/>
+  </g>
+</svg>
