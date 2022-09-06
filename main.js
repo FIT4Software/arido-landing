@@ -48,6 +48,6 @@ document.addEventListener("DOMContentLoaded", function (event) {
     autoRotate: -3,
     compass: false,
     hfov: 200,
-    showControls: false,
+    showControls: true,
   });
 });
