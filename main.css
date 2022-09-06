@@ -451,6 +451,10 @@ section p {
   /* .map {
     height: 400px;
   } */
+  #panorama {
+    width: 100%;
+    height: 350px;
+  }
 }
 
 /* Medium devices (tablets, 768px and up) */
@@ -580,6 +584,10 @@ section p {
   /* .map {
     height: 400px;
   } */
+  #panorama {
+    width: 100%;
+    height: 350px;
+  }
 }
 
 /* Large devices (desktops, 992px and up) */
@@ -716,6 +724,10 @@ section p {
   /* .map {
     height: 400px;
   } */
+  #panorama {
+    width: 100%;
+    height: 350px;
+  }
 }
 
 @media (min-width: 992px) and (max-width: 1200px) and (orientation: landscape) {
@@ -750,5 +762,9 @@ section p {
   }
   .social-list a li {
     font-size: 1rem;
+  }
+  #panorama {
+    width: 100%;
+    height: 350px;
   }
 }
