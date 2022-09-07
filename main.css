@@ -149,7 +149,7 @@ section p {
   height: 450px;
 }
 .hero-bg {
-  background-image: url(assets/image/frente-opt.svg);
+  background-image: url(assets/image/frente-opt_animated.svg);
   background-repeat: no-repeat;
   background-size: contain;
   position: absolute;
@@ -506,7 +506,7 @@ section p {
   }
 
   .hero-bg {
-    background-image: url(assets/image/frente-mobile-opt.svg);
+    background-image: url(assets/image/frente-mobile-opt_animated.svg);
     background-size: 100%;
     background-position: 28% 35%;
   }
