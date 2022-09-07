@@ -1,4 +1,5 @@
 document.addEventListener("DOMContentLoaded", function (event) {
+  AOS.init();
   const header = document.getElementById("header");
   const menu = document.getElementById("menu");
 
