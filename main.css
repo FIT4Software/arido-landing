@@ -775,7 +775,10 @@ section p {
     height: calc(100vh - 100px);
   }
   .hero-bg {
-    background-position: center 65%;
+    background-position: center 54%;
+  }
+  .hero-subtitle {
+    margin-bottom: 30px;
   }
   .stepper-card img {
     width: 35%;
