@@ -40,7 +40,7 @@ document.addEventListener("DOMContentLoaded", function (event) {
 
   //   menuMobile.addEventListener("click", showHideMenu, false);
 
-  document.addEventListener("click", handleClickOutsideMenu, false);
+  document.addEventListener("click", handleClickOutsideMenu, { passive: true });
 
   pannellum.viewer("panorama", {
     type: "equirectangular",

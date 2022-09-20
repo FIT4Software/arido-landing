@@ -1,13 +1,26 @@
 <!DOCTYPE html>
 <html lang="es">
   <head>
+    <link
+      rel="preconnect"
+      href="https://cdn.jsdelivr.net/npm/pannellum@2.5.6/build"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com/css" />
+    <link rel="preconnect" href="https://unpkg.com/aos@2.3.1/dist" />
+    <link rel="dns-prefetch" href="https://fonts.googleapis.com" />
+    <link rel="dns-prefetch" href="https://unpkg.com" />
+    <link
+      rel="dns-prefetch"
+      href="https://cdn.jsdelivr.net/npm/pannellum@2.5.6/build"
+    />
+
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Arido Software</title>
     <link rel="stylesheet" href="normalize.css" media="screen" />
     <link
-      href="https://fonts.googleapis.com/css?family=Space+Grotesk"
+      href="https://fonts.googleapis.com/css?family=Space+Grotesk&display=swap"
       rel="stylesheet"
       type="text/css"
     />
@@ -29,6 +42,7 @@
           id="menu-mobile"
           class="menu-mobile"
           src="assets/image/menu-mobile.svg"
+          alt="Menu"
         />
         <ul id="menu" class="menu">
           <a href="#mes"><li class="menu-item">What is MES?</li></a>
@@ -43,7 +57,7 @@
       <section class="hero">
         <h1 class="hero-title" data-aos="fade-up">Focus in MES</h1>
         <h2 class="hero-subtitle" data-aos="fade-up">
-          We help you and improve your MES management.
+          We help to improve your MES management.
         </h2>
       </section>
       <section id="mes">
@@ -170,16 +184,7 @@
       </section>
       <section id="about">
         <h1 class="section-title" data-aos="fade-up">About Us</h1>
-        <p data-aos="fade-up">
-          "I founded Arido Software in 2007, after been working several years by
-          my own in the MES Area for the world greatest manufacturing goods
-          company supporting and implementing GE Proficy Plant Applications,
-          Proficy iHistorian and Profcy Real Time Information Portal. Developing
-          and transferring skills to a small team in the beginnings was very
-          challenging but that makes the foundation of our company today, where
-          high skills and a deep understanding of what is needed in the plant
-          floor makes the difference." Fernando Rio - Arido Software President
-        </p>
+
         <div class="card-collection">
           <div class="card" data-aos="fade-up">
             <img
@@ -208,7 +213,42 @@
             />
             <p>Customer recognized technical and bussiness process leader</p>
           </div>
+
+          <div class="card" data-aos="fade-up">
+            <img class="card-image" src="assets/image/lead.svg" alt="Leader" />
+            <p>OEE Technical Lead</p>
+          </div>
+          <div class="card" data-aos="fade-up">
+            <img
+              class="card-image"
+              src="assets/image/man-boss.svg"
+              alt="Leader"
+            />
+            <p>Solution Architecture Leadership</p>
+          </div>
+          <div class="card" data-aos="fade-up">
+            <img
+              class="card-image"
+              src="assets/image/database.svg"
+              alt="Leader"
+            />
+            <p>Data warehouse and Data Marts developemnt</p>
+          </div>
         </div>
+
+        <p data-aos="fade-up">
+          <i
+            >"I founded Arido Software in 2007, after been working several years
+            by my own in the MES Area for the world greatest manufacturing goods
+            company supporting and implementing GE Proficy Plant Applications,
+            Proficy iHistorian and Profcy Real Time Information Portal.
+            Developing and transferring skills to a small team in the beginnings
+            was very challenging but that makes the foundation of our company
+            today, where high skills and a deep understanding of what is needed
+            in the plant floor makes the difference."</i
+          >
+          <br /><br />Fernando Rio - Arido Software President
+        </p>
       </section>
       <!-- <section id="galeria" class="gallery">
         <div class="grid-wrapper">
@@ -256,24 +296,41 @@
               <p class="address-title">Headquater Villa Mercedes</p>
               <hr />
               <p>
-                <img src="assets/image/address.svg" alt="Address" />Lamadrid
-                1138
+                <a
+                  href="https://www.google.com.ar/maps/place/Arido+Software/@-33.6704253,-65.474287,17z/data=!3m1!4b1!4m5!3m4!1s0x95d16b5c9a1b8149:0x192a3ddb57d36ea3!8m2!3d-33.6704298!4d-65.472093"
+                  target="_blank"
+                >
+                  <img src="assets/image/address.svg" alt="Address" />Lamadrid
+                  1138</a
+                >
               </p>
               <p>
-                <img src="assets/image/phone.svg" alt="Phone" />Tel: +54 9 2657
-                430897
+                <a href="tel:+5492657428123">
+                  <img src="assets/image/phone.svg" alt="Phone" />Tel: +54 9
+                  2657 428123</a
+                >
               </p>
               <p>
-                <img
-                  src="assets/image/mail.svg"
-                  alt="Mail"
-                />info@aridosoftware.com
+                <a
+                  href="mailto:info@aridosoftware.com?subject=We need your help."
+                >
+                  <img
+                    src="assets/image/mail.svg"
+                    alt="Mail"
+                  />info@aridosoftware.com</a
+                >
               </p>
             </div>
             <div>
               <p class="address-title">Headquater San Luis</p>
               <hr />
-              <p><img src="assets/image/address.svg" />Rivadavia 917</p>
+              <p>
+                <a
+                  href="https://www.google.com.ar/maps/place/Rivadavia+917,+D5700+San+Luis/@-33.2999751,-66.3392103,17z/data=!3m1!4b1!4m5!3m4!1s0x95d43953f01da5bf:0x677989862c81730c!8m2!3d-33.2999796!4d-66.3370163"
+                  target="_blank"
+                  ><img src="assets/image/address.svg" />Rivadavia 917</a
+                >
+              </p>
             </div>
           </div>
         </div>
@@ -295,15 +352,25 @@
                 />@aridosoftware
               </li></a
             >
-            <a href="#"
+            <!-- <a href="#"
               ><li>
                 <img
                   src="assets/image/linkedin.svg"
                   at="linkedin"
                 />@aridosoftware
               </li></a
-            >
+            > -->
           </ul>
+        </div>
+        <div data-aos="fade-up">
+          <a href="http://cistic.com.ar/">
+            <img
+              class="cistic_logo"
+              src="assets/image/logo-cistic.png"
+              at="Cistic"
+              target="_blank"
+            />
+          </a>
         </div>
       </div>
     </section>

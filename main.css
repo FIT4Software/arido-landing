@@ -356,6 +356,19 @@ section p {
   height: 15px;
   margin-right: 10px;
 }
+.address div p a {
+  color: var(--secondary);
+  position: relative;
+  transition: all 0.5s ease-out;
+}
+
+.address div p a:hover .tooltip {
+  display: inline;
+}
+
+.cistic_logo {
+  margin-top: 92px;
+}
 
 /* Small devices (landscape phones, 576px and up) */
 @media (max-width: 576px) {
@@ -776,6 +789,9 @@ section p {
   #panorama {
     width: 100%;
     height: 350px;
+  }
+  .cistic_logo {
+    margin-top: 180px;
   }
 }
 
