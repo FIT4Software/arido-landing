@@ -89,6 +89,10 @@ section p {
   align-items: center;
 }
 
+.opsflow-link {
+  margin-top: 6px;
+}
+
 .logo {
   height: 50px;
   transition: all 0.5s ease-out;
@@ -119,6 +123,40 @@ section p {
   top: 0;
   transition: all 0.5s ease-out;
 }
+#tryopsflow {
+  width: 100%;
+  background-image: repeating-linear-gradient(
+      90deg,
+      #c7c7c7,
+      #c7c7c7 12px,
+      transparent 12px,
+      transparent 16px
+    ),
+    repeating-linear-gradient(
+      90deg,
+      #c7c7c7,
+      #c7c7c7 12px,
+      transparent 12px,
+      transparent 16px
+    );
+  background-position: left top, left bottom;
+  background-repeat: repeat-x, repeat-x;
+  background-size: 100% 1px, 100% 1px;
+}
+#tryopsflow a {
+  display: flex;
+  /* gap: 25px; */
+  flex-direction: column;
+  flex-wrap: nowrap;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+  color: var(--text);
+}
+
+#tryopsflow img {
+  width: 350px;
+}
 
 .sticky-bg {
   background: rgb(255, 255, 255);
@@ -140,7 +178,7 @@ section p {
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#ffffff",endColorstr="#ffffff",GradientType=1);
   padding: 5px 0;
 }
-.sticky-bg img {
+.sticky-bg .logo {
   height: 40px;
 }
 
@@ -382,7 +420,7 @@ section p {
   .header .container {
     padding: 15px;
   }
-  .sticky-bg img {
+  .sticky-bg .logo {
     height: 30px;
     padding: 0;
   }
