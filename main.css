@@ -124,7 +124,7 @@ section p {
   transition: all 0.5s ease-out;
 }
 #tryopsflow {
-  width: 100%;
+  /* width: 100%; */
   background-image: repeating-linear-gradient(
       90deg,
       #c7c7c7,
@@ -155,7 +155,7 @@ section p {
 }
 
 #tryopsflow img {
-  width: 350px;
+  width: 280px;
 }
 
 .sticky-bg {
