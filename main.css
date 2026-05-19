@@ -103,7 +103,7 @@ section p {
   flex-wrap: nowrap;
   flex-direction: row;
   justify-content: space-between;
-  width: 700px;
+  width: 800px;
   align-items: center;
 }
 .menu-mobile {
@@ -125,7 +125,8 @@ section p {
 }
 #tryopsflow {
   /* width: 100%; */
-  background-image: repeating-linear-gradient(
+  background-image:
+    repeating-linear-gradient(
       90deg,
       #c7c7c7,
       #c7c7c7 12px,
@@ -139,11 +140,13 @@ section p {
       transparent 12px,
       transparent 16px
     );
-  background-position: left top, left bottom;
+  background-position:
+    left top,
+    left bottom;
   background-repeat: repeat-x, repeat-x;
-  background-size: 100% 1px, 100% 1px;
-}
-#tryopsflow a {
+  background-size:
+    100% 1px,
+    100% 1px;
   display: flex;
   /* gap: 25px; */
   flex-direction: column;
@@ -151,11 +154,39 @@ section p {
   align-content: center;
   justify-content: center;
   align-items: center;
-  color: var(--text);
 }
 
 #tryopsflow img {
   width: 280px;
+}
+
+.try-opsflow-title {
+  font-size: 1.6rem;
+  font-weight: 800;
+  margin: 8px 0;
+}
+.try-opsflow-subtitle {
+  font-size: 1.1rem;
+  font-weight: 400;
+  margin: 2px 0 0 0;
+}
+.try-opsflow-btn {
+  margin: 15px;
+  background-color: var(--primary);
+  color: var(--secondary);
+  width: 300px;
+  padding: 10px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+
+  a {
+    color: var(--secondary);
+  }
 }
 
 .sticky-bg {
@@ -250,6 +281,8 @@ section p {
 }
 
 .stepper-card p {
+  display: flex;
+  flex-direction: column;
   width: 500px;
   font-size: 1.3rem;
 }
@@ -408,6 +441,43 @@ section p {
   margin-top: 92px;
 }
 
+#securepolicy ul li {
+  font-size: 1.3rem;
+  line-height: 1.6;
+}
+
+.securepolicy-container {
+  display: flex;
+  flex-direction: row;
+
+  img {
+    width: 50%;
+    object-fit: contain;
+  }
+}
+.policy-list {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  gap: 10px;
+
+  div {
+    background-color: var(--primary);
+    color: var(--secondary);
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.5s ease-out;
+
+    a {
+      color: var(--secondary);
+    }
+  }
+  div:hover {
+    padding: 10px 20px;
+  }
+}
+
 /* Small devices (landscape phones, 576px and up) */
 @media (max-width: 576px) {
   .header {
@@ -478,12 +548,16 @@ section p {
     padding: 20px 20px;
   }
 
-  section p {
+  section p,
+  ul li {
     font-size: 1rem;
   }
 
   .section-title {
     font-size: 1.4rem;
+  }
+  .section-subtitle {
+    font-size: 1rem;
   }
   .stepper-card {
     flex-direction: column;
@@ -543,6 +617,27 @@ section p {
   #panorama {
     width: 100%;
     height: 350px;
+  }
+  #tryopsflow {
+    padding: 20px 20px;
+
+    img {
+      width: 90%;
+    }
+
+    .try-opsflow-title {
+      font-size: 14px;
+    }
+    .try-opsflow-subtitle {
+      font-size: 12px;
+      text-align: center;
+    }
+    .try-opsflow-btn {
+      font-size: 12px;
+      margin-left: 20px;
+      margin-right: 20px;
+      width: 200px;
+    }
   }
 }
 
@@ -682,6 +777,10 @@ section p {
     width: 100%;
     height: 350px;
   }
+  .securepolicy-container {
+    display: flex;
+    flex-direction: column;
+  }
 }
 
 /* Large devices (desktops, 992px and up) */
@@ -819,7 +918,14 @@ section p {
     padding: 0;
   }
   .social-list a li {
-    font-size: 1.2rem;
+    font-size: 1.3rem;
+    line-height: 1.6;
+  }
+  .btn {
+    background-color: var(--primary);
+    color: var(--secondary);
+    padding: 10px;
+    border-radius: 5px;
   }
   /* .map {
     height: 400px;
@@ -903,7 +1009,9 @@ section p {
   font-weight: 600;
   text-decoration: none;
   box-shadow: 0 8px 20px rgba(0, 0, 0, 0.25);
-  transition: transform 0.2s ease, box-shadow 0.2s ease;
+  transition:
+    transform 0.2s ease,
+    box-shadow 0.2s ease;
 }
 
 #whatsapp-floating i {
